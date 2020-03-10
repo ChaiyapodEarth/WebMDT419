@@ -1,0 +1,211 @@
+legend{
+    text-align: center;
+}
+#timerClock{
+    text-align: center;
+}
+.Movetocenter{
+    text-align: center;
+}
+#Num{
+    font-family: sans-serif;
+    color: #2eb7a4;
+    font-size: 25pt;
+}
+body{
+    background-color:hsl(209, 80%, 11%) ;
+}
+#start{
+    font-family: sans-serif;;
+    font-size: 50pt;
+    color:#de6e63;
+    border: hsl(209, 80%, 11%) solid ;
+    background-color:hsl(209, 80%, 11%) ;
+}
+#start:hover{
+    color: #2eb7a4;
+    font-size: 48pt;
+}
+
+#numbox{
+    font-family: sans-serif;;
+    font-size: 20pt;
+    border: #de6e63 3px solid ;
+    background-color:hsl(209, 80%, 11%) ;
+    height: 30pt;
+    text-align: center;
+    margin-bottom: 10pt;
+    color: #2eb7a4;
+}
+#numbox:hover{
+    background-color:#de6e63;
+}
+.block2{
+    display: inline-block;
+}
+
+#clock{
+  font-family: sans-serif;;
+  position: absolute;
+  font-size: 250pt;
+  text-align: center;
+  left: 40pt;
+  bottom: 40pt;
+  text-shadow:hsl(208, 76%, 5%)-9px 9px;
+}
+#clock2{
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 250pt;
+    text-align: center;
+    right: 40pt;
+    bottom: 40pt;
+    text-shadow:hsl(208, 76%, 5%)-9px 9px;
+}
+.TextBottom{
+    margin-top: -75px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35pt;
+    text-shadow: 4px -4px #2eb7a4;
+    color: hsl(209, 80%, 11%);
+}
+#squares-layer2 {
+    background-color:hsl(209, 80%, 11%);
+    color: #de6e63;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid hsl(209, 80%, 11%);
+}
+#link{
+    text-align: right;
+   
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    color: #2eb7a4;
+    text-decoration: none;
+}
+a:hover{
+    color:#de6e63;
+    font-size: 19pt;
+}
+
+
+.color{
+    color: #2eb7a4;
+    color:#de6e63;
+    color: hsl(209, 80%, 11%)
+}
+
+hr{
+    border: 1px solid #de6e63;
+}
+#squares-layer {
+    background-color: rgb(24, 70, 112);
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid hsl(209, 80%, 11%);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
+#squares-container {
+   
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#setLink{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2eb7a4;
+    text-decoration: none;
+    font-size: 68px;
+    margin-left: 70px;
+    margin-right: 50px;
+    text-shadow:hsl(208, 76%, 5%)-9px 9px;
+}
+#setLink:hover{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #de6e63;
+    text-decoration: none;
+    font-size: 66px;
+    margin-left: 70px;
+    margin-right: 50px;
+    text-shadow:hsl(208, 76%, 5%)-9px 9px;
+}
+
+.moveToCenter{
+    text-align: right;
+    margin-bottom: -100px;
+}
+
+#info{
+    margin-top: -30px;
+    font-variant : small-caps;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:15px;
+    color: #2eb7a4;
+}
+#info2{
+    font-variant : small-caps;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:15px;
+    color: #2eb7a4;
+}
+#sorceB{
+    margin-top: -30px;
+    margin-right: 20px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size:20px;
+    color: #2eb7a4;
+}
+#sorce{
+   
+    /* text-align: center; */
+    font-family: sans-serif;
+    font-size:20px;
+    color: #2eb7a4;
+}
+#sorce:hover{
+  
+    color: #de6e63;
+}
+@media only screen and (max-width: 767px){
+   
+    .moveToCenter{
+    text-align: center;
+    margin-bottom: 1px;
+    }
+
+    #info{
+        margin-top: 50px;
+        font-variant : small-caps;
+        text-align: center;
+        font-family: sans-serif;
+        font-size:15px;
+        color: #2eb7a4;
+    }
+}
